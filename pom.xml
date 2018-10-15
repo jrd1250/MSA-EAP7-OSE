@@ -8,6 +8,12 @@
     <packaging>pom</packaging>
     <url>http://maven.apache.org</url>
     <name>Parent Project</name>
+         
+    <profiles>
+        <profile>
+            <id>openshift</id>
+        </profile>
+    </profiles>
 
     <modules>
         <module>Presentation</module>
